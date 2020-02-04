@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Simple Calculator</string>
+    <string name="et1_txt">Enter First Number</string>
+    <string name="et2_txt">Enter Second Number</string>
+    <string name="btn1_txt">ADD</string>
+    <string name="btn2_txt">MULTIPLY</string>
+    <string name="btn3_txt">DIVIDE</string>
+    <string name="btn4_txt">Subtract</string>
+</resources>

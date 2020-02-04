@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/si_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INTEREST CALCULATOR"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/et_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/si_head"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Enter the Principle Amount"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/et_p"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Enter the Interest rate"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@id/et_r"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Enter the number of years"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE"
+        android:textStyle="bold"
+        android:layout_below="@id/et_t"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_calc"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

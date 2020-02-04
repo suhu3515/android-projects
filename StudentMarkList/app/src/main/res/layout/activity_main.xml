@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/et_sname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the name"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"/>
+
+    <EditText
+        android:id="@+id/et_sroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Roll no."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_below="@id/et_sname"
+        android:layout_marginLeft="25dp"/>
+
+    <EditText
+        android:id="@+id/et_sm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Mark 1"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_below="@id/et_sroll"
+        android:layout_marginLeft="25dp"/>
+
+    <EditText
+        android:id="@+id/et_sm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Mark 2"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_below="@id/et_sm1"
+        android:layout_marginLeft="25dp"/>
+
+    <EditText
+        android:id="@+id/et_sm3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Mark 3"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_below="@id/et_sm2"
+        android:layout_marginLeft="25dp"/>
+
+    <Button
+        android:id="@+id/btn_sres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEE RESULT"
+        android:layout_below="@id/et_sm3"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_roll"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="ROLL NO."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btn_sres"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_avg"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="AVERAGE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tv_roll"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_grade"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="GRADE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tv_avg"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_iroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/tv_roll"
+        android:layout_below="@id/btn_sres"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_iavg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/tv_avg"
+        android:layout_below="@id/tv_iroll"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_igrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/tv_grade"
+        android:layout_below="@id/tv_iavg"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
