@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "751352289916",
+    "firebase_url": "https://entho-walpapers.firebaseio.com",
+    "project_id": "entho-walpapers",
+    "storage_bucket": "entho-walpapers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751352289916:android:019cc02c9e493c00cf07f9",
+        "android_client_info": {
+          "package_name": "com.example.walpapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751352289916-1ht6fjfob9a0ocs68l6aanhc1m6umj7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.walpapers",
+            "certificate_hash": "1e1c0fc47402e2f0e6ef11d991a164487b4053ab"
+          }
+        },
+        {
+          "client_id": "751352289916-1r887ltlm9vrfpgobn7g05vvaliuajcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH5p-yLizgvThdgIuDr4lmmy3APaAbvRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751352289916-1r887ltlm9vrfpgobn7g05vvaliuajcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
