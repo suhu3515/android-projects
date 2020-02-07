@@ -35,7 +35,7 @@
         android:id="@+id/et_sm1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter the Mark 1"
+        android:hint="Mark 1"
         android:textColor="@android:color/black"
         android:textSize="20sp"
         android:layout_marginTop="10dp"
@@ -47,24 +47,26 @@
         android:id="@+id/et_sm2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter the Mark 2"
+        android:hint="Mark 2"
         android:textColor="@android:color/black"
         android:textSize="20sp"
         android:layout_marginTop="10dp"
         android:textStyle="bold"
-        android:layout_below="@id/et_sm1"
+        android:layout_below="@id/et_sroll"
+        android:layout_toRightOf="@id/et_sm1"
         android:layout_marginLeft="25dp"/>
 
     <EditText
         android:id="@+id/et_sm3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter the Mark 3"
+        android:hint="Mark 3"
         android:textColor="@android:color/black"
         android:textSize="20sp"
         android:layout_marginTop="10dp"
         android:textStyle="bold"
-        android:layout_below="@id/et_sm2"
+        android:layout_below="@id/et_sroll"
+        android:layout_toRightOf="@id/et_sm2"
         android:layout_marginLeft="25dp"/>
 
     <Button
